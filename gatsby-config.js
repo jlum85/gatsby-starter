@@ -3,7 +3,7 @@ module.exports = {
   /*  pour graph ql , ce sera dans   site /  siteMetadata  */
 
   siteMetadata: {
-    title: "My Gatsby blog",
+    title: "Gatsby blog",
   },
 
   plugins: ["gatsby-plugin-sass"],
