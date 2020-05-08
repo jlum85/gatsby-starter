@@ -4,9 +4,11 @@ import Header from "./header.js"
 import Footer from "./footer.js"
 
 export default ({ children }) => (
-  <div className={styles.container}>
-    <Header />
-    <div className={styles.content}>{children}</div>
-    <Footer>My new Gatsby Blog 2019</Footer>
-  </div>
+  <>
+    <div className={styles.container}>
+      <Header />
+      <div className={styles.content}>{children}</div>
+    </div>
+    <Footer>My Blog 2020 - Made with Gatsby 🚀 </Footer>
+  </>
 )

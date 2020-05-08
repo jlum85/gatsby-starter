@@ -1,17 +1,18 @@
 @import "../styles/global";
 
-$footer-height: 100px;
+$footer-height: 70px;
 
 .container {
   background-color: $color-pallete-3;
   height: $footer-height;
-  position: absolute;
-  bottom: 0;
-  width: $container-width;
+  // position: absolute;
+  // bottom: 0;
+  // width: $container-width;
 
   .footer {
     margin: 0 auto;
-    max-width: $site-width;
+    text-align: center;
+    // max-width: $site-width;
     height: $footer-height;
     line-height: $footer-height;
     color: $color-pallete-4;
