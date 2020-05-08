@@ -9,6 +9,11 @@ export default ({ children }) => (
       <Header />
       <div className={styles.content}>{children}</div>
     </div>
-    <Footer>My Blog 2020 - Made with Gatsby 🚀 </Footer>
+    <Footer>
+      My Blog 2020 - Made with Gatsby{" "}
+      <span role="img" aria-label="emoji">
+        🚀
+      </span>{" "}
+    </Footer>
   </>
 )
