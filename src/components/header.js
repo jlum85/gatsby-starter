@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
 import styles from "./header.module.scss"
+import SEO from "./SEO"
 
 // HeaderLink component
 const HeaderLink = props => (
@@ -52,6 +53,8 @@ export default () => (
     `}
     render={data => (
       <header className={styles.container}>
+        <SEO />
+
         <div className={styles.row}>
           <HomeButton to="/" text={data.site.siteMetadata.title} />
           <SocialButton site="github" username="evangeloper"></SocialButton>
